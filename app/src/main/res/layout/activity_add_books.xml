@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_add_books">
+    <ImageView
+        android:layout_width="319dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/books">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/txt_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="Book Name"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txt_book_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Book Author"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txt_book_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Book Price"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txt_book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Book Description"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/txt_book_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Book Image Url"
+        android:textColor="@android:color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:background="#066e8a"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Add Products" />
+
+
+
+</LinearLayout>
